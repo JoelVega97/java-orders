@@ -19,26 +19,26 @@ The table layouts are as follows
 ![Image of Database Layout](java-orders-db.png)
 
 * AGENTS
-  * AGENTCODE primary key, not null Long
-  * AGENTNAME string
-  * WORKINGAREA string
-  * COMMISSION double
-  * PHONE string
-  * COUNTRY string
+  * AGENTCODE primary key, not null Long✔
+  * AGENTNAME string✔
+  * WORKINGAREA string✔
+  * COMMISSION double✔
+  * PHONE string✔
+  * COUNTRY string✔
 
 * CUSTOMERS
-  * CUSTCODE primary key, not null Long
-  * CUSTNAME String, not null
-  * CUSTCITY String
-  * WORKINGAREA String
-  * CUSTCOUNTRY String
-  * GRADE String
-  * OPENINGAMT double
-  * RECEIVEAMT double
-  * PAYMENTAMT double
-  * OUTSTANDINGAMT double
-  * PHONE String
-  * AGENTCODE Long foreign key (one agent to many customers) not null
+  * CUSTCODE primary key, not null Long✔
+  * CUSTNAME String, not null✔
+  * CUSTCITY String✔
+  * WORKINGAREA String✔
+  * CUSTCOUNTRY String✔
+  * GRADE String✔
+  * OPENINGAMT double✔
+  * RECEIVEAMT double✔
+  * PAYMENTAMT double✔
+  * OUTSTANDINGAMT double✔
+  * PHONE String✔
+  * AGENTCODE Long foreign key (one agent to many customers) not null✔
 
 * ORDERS
   * ORDNUM primary key, not null Long
